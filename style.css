@@ -1,0 +1,31 @@
+#grid,
+#grid td,
+#grid tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#grid td {
+  width: 5em;
+  height: 5em;
+}
+
+#align {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 5em;
+  padding: auto;
+}
+
+#grid td {
+  text-align: center;
+}
+
+#buttons {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+}
